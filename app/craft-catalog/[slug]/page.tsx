@@ -5,8 +5,17 @@ import CraftOverview   from "@/components/custom/craft-catalog/CraftOverview";
 import RelatedCrafts   from "@/components/custom/craft-catalog/RelatedCrafts";
 import { servicePages } from "@/data/craft-catalog/service-pages";
 
-// TODO: Replace PLACEHOLDER_BG with a real service photo per slug
-const PLACEHOLDER_BG = "/images/IMG_9688-1024x682.jpg";
+const SERVICE_IMAGES: Record<string, string> = {
+  "roof-repair":             "/images/roofer-inspecting-asphalt-shingles-closeup.jpg",
+  "roof-replacement":        "/images/roofing-crew-installing-shingles-aerial-view.jpg",
+  "flat-roofing":            "/images/worker-applying-roof-coating-roller.jpg",
+  "emergency-roof-repair":   "/images/roofer-installing-shingles-aerial-view.jpg",
+  "chimney-repair-cleaning": "/images/chimney-inspection-repair-rooftop-worker.jpg",
+  "chimney-rebuild":         "/images/roofing-crew-aerial-safety-harness-installation.jpg",
+  "siding":                  "/images/roofer-installing-metal-roofing-panels-closeup.jpg",
+  "skylights":               "/images/modern-metal-roof-dormers-wooden-accents.jpg",
+  "gutters":                 "/images/worker-cleaning-gutters-ladder-autumn.jpg",
+};
 
 /* Pre-render all known service slugs at build time */
 export function generateStaticParams() {
@@ -40,7 +49,7 @@ export default async function ServiceDetailPage({
     <main className="pt-76 max-[1150px]:pt-[6.2rem]">
       <CraftHero
         title={data.title}
-        bgImage={PLACEHOLDER_BG}
+        bgImage={SERVICE_IMAGES[slug] ?? "/images/roofing-crew-working-residential-roof-installation.jpg"}
         breadcrumbs={[
           { label: "Services", href: "/craft-catalog" },
           { label: data.title },
