@@ -5,8 +5,7 @@ export const accordionItems = [
   {
     id: "accordion-0",
     title: "Roof Repair",
-    image: "/images/IMG_31181.jpeg",
-    // [TODO: Replace with South Fork Roofing roof repair job photo]
+    image: "/images/roofer-inspecting-asphalt-shingles-closeup.jpg",
     description:
       "From missing shingles and flashing failures to ice dam damage — South Fork Roofing and Chimney diagnoses and repairs roofing issues on residential, commercial, and industrial properties throughout East Hampton and Long Island.",
     learnHref: "/craft-catalog/roof-repair",
@@ -20,8 +19,7 @@ export const accordionItems = [
   {
     id: "accordion-1",
     title: "Chimney Repair & Cleaning",
-    image: "/images/IMG_31141.jpeg",
-    // [TODO: Replace with South Fork chimney repair photo]
+    image: "/images/chimney-inspection-repair-rooftop-worker.jpg",
     description:
       "Cracked crowns, spalling brick, failed flashing, and creosote buildup are all safety and structural issues. Our chimney specialists inspect, clean, and repair chimney systems to keep your fireplace safe and your home watertight.",
     learnHref: "/craft-catalog/chimney-repair-cleaning",
@@ -35,8 +33,7 @@ export const accordionItems = [
   {
     id: "accordion-2",
     title: "Roof Replacement",
-    image: "/images/IMG_31181.jpeg",
-    // [TODO: Replace with South Fork full roof replacement photo]
+    image: "/images/roofing-crew-installing-shingles-aerial-view.jpg",
     description:
       "When repair no longer makes financial sense, South Fork Roofing and Chimney handles full tear-offs and new roof installations. We offer lifetime warranty shingles and back every installation with our workmanship warranty.",
     learnHref: "/craft-catalog/roof-replacement",
@@ -50,8 +47,7 @@ export const accordionItems = [
   {
     id: "accordion-3",
     title: "Siding & Gutters",
-    image: "/images/IMG_31181.jpeg",
-    // [TODO: Replace with South Fork siding or gutters job photo]
+    image: "/images/worker-cleaning-gutters-ladder-autumn.jpg",
     description:
       "South Fork Roofing and Chimney installs and repairs siding and gutters for residential and commercial properties throughout Long Island. We protect your full exterior — from roof edge to foundation line.",
     learnHref: "/craft-catalog/siding",

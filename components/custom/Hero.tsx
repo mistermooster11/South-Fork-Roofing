@@ -108,9 +108,8 @@ export default function Hero() {
                   visible ? 'h-full scale-100' : 'h-0 scale-[1.2]',
                 ].join(' ')}
               >
-                {/* [TODO: Replace with South Fork Roofing hero image] */}
                 <img
-                  src="https://southforkroofingandchimney.com/wp-content/uploads/2023/01/IMG_31181.jpeg"
+                  src="/images/roofer-installing-shingles-aerial-view.jpg"
                   alt="South Fork Roofing and Chimney — East Hampton, NY"
                   className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 min-w-full min-h-full w-auto h-auto max-w-[200%]"
                   style={{ objectFit: 'cover' }}

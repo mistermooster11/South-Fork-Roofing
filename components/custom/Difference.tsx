@@ -44,8 +44,7 @@ export default function Difference() {
           {/* Right: photo */}
           <div className="w-full md:w-[54%] shrink-0 relative z-20">
             <div className="front-difference__image">
-              {/* [TODO: Replace with South Fork Roofing team or job site photo] */}
-              <VapeImage src="https://southforkroofingandchimney.com/wp-content/uploads/2023/01/IMG_31181.jpeg" />
+              <VapeImage src="/images/roofing-crew-working-residential-roof-installation.jpg" />
             </div>
           </div>
 

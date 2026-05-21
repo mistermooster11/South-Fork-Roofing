@@ -39,7 +39,7 @@ export default function Announcements() {
               <span
                 style={{
                   backgroundImage:
-                    'url(https://southforkroofingandchimney.com/wp-content/uploads/2023/01/IMG_31141-768x1024.jpeg)',
+                    'url(/images/roofing-crew-aerial-safety-harness-installation.jpg)',
                   backgroundRepeat: 'no-repeat',
                   backgroundPosition: '50% 50%',
                   backgroundSize: 'cover',
@@ -49,7 +49,6 @@ export default function Announcements() {
                   backgroundColor: '#101d2b',
                 }}
               />
-              {/* [TODO: Replace with South Fork Roofing team or job site photo] */}
             </div>
           </div>
 

@@ -7,33 +7,27 @@ import CraftHero from "@/components/custom/craft-catalog/CraftHero";
 const galleryItems = [
   {
     label: "Roof Repair — East Hampton Residential",
-    image: "https://southforkroofingandchimney.com/wp-content/uploads/2023/01/IMG_31181.jpeg",
-    // [TODO: Replace with actual South Fork Roofing job photo]
+    image: "/images/roofer-inspecting-asphalt-shingles-closeup.jpg",
   },
   {
     label: "Chimney Repair — Hamptons Property",
-    image: "https://southforkroofingandchimney.com/wp-content/uploads/2023/01/IMG_31141-768x1024.jpeg",
-    // [TODO: Replace with actual South Fork chimney repair photo]
+    image: "/images/chimney-inspection-repair-rooftop-worker.jpg",
   },
   {
     label: "Full Roof Replacement — Long Island Home",
-    image: "https://southforkroofingandchimney.com/wp-content/uploads/2023/01/IMG_31181.jpeg",
-    // [TODO: Replace with actual roof replacement job photo]
+    image: "/images/modern-home-slate-roof-mountain-valley.jpg",
   },
   {
     label: "Flat Roofing — Commercial Property",
-    image: "https://southforkroofingandchimney.com/wp-content/uploads/2023/01/IMG_31141-768x1024.jpeg",
-    // [TODO: Replace with actual flat roofing job photo]
+    image: "/images/worker-applying-roof-coating-roller.jpg",
   },
   {
     label: "Siding Installation — East Hampton Residence",
-    image: "https://southforkroofingandchimney.com/wp-content/uploads/2023/01/IMG_31181.jpeg",
-    // [TODO: Replace with actual siding job photo]
+    image: "https://southforkroofingandchimney.com/wp-content/uploads/2023/01/IMG_31181.jpeg", // [TODO: Replace with actual siding job photo — no library match]
   },
   {
     label: "Gutter Installation — Hamptons Home",
-    image: "https://southforkroofingandchimney.com/wp-content/uploads/2023/01/IMG_31141-768x1024.jpeg",
-    // [TODO: Replace with actual gutter job photo]
+    image: "/images/worker-cleaning-gutters-autumn-leaves.jpg",
   },
 ];
 
