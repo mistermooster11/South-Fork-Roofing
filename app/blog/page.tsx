@@ -95,7 +95,7 @@ export default function BlogPage() {
                 className={`fadeInUpS wow${vis}`}
                 style={{
                   animationDelay: `${i * 0.08}s`,
-                  borderBottom: "2px solid #101d2b",
+                  borderBottom: "2px solid #1A1A1C",
                   paddingBottom: "2rem",
                 }}
               >
